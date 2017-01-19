@@ -13,3 +13,6 @@ func sayHello(to person: String, and anotherPerson: String) -> String {
 let greeting: String = sayHello(to: "Bill", and: "Ted")
 ```
 - Calls this function using the "external" parameter names
+
+###Ref
+https://github.com/codepath/ios_guides/wiki/Understanding-Swift
