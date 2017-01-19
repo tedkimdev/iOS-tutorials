@@ -33,7 +33,7 @@ As you change build configurations, you want those changes shared with your team
   
  3. Check the Shared box.
  
-  ![Check the shared box](https://cloud.githubusercontent.com/assets/20268356/22092879/81d427cc-de44-11e6-8da9-9620fe672cec.png)
+  ![Check the shared box](https://cloud.githubusercontent.com/assets/20268356/22092874/7b4155e2-de44-11e6-88aa-589ef3cea423.png)
 
 You will now have an ```ProjectName.xcodeproj/xcshareddata``` folder in your app. Add this file to git.
 
