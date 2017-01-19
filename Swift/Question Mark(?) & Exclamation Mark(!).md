@@ -14,7 +14,7 @@ let x = myInstance?.count
 - if the chain is nil, it returns nil
 
 ###type casting
-
+https://github.com/00aney/iOS-tutorials/blob/master/Swift/Type%20Casting.md
 
 ###nil coalescing operator(```??```)
 ```swift
