@@ -7,7 +7,7 @@ iOS Swift tutorials
 
 
 
-## a dependency management system for iOS
-1. CocoaPods
-2. Carthage(https://github.com/Carthage/Carthage)
+## Dependency management systems for iOS
+1. [CocoaPods](https://cocoapods.org)
+2. [Carthage](https://github.com/Carthage/Carthage)
  
