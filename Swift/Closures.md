@@ -16,3 +16,13 @@ The nested ```incrementer()``` function captures two values, ```runningTotal``` 
 ```makeIncrementer``` returns ```incrementer```
 
 ```incrementer``` is a closure that increments ```runningTotal``` by amount each time it is called.
+
+
+###example
+```swift
+let incrementByTen = makeIncrementer(forIncrement: 10)
+
+incrementByTen()  // returns a value of 10
+incrementByTen()  // returns a value of 20
+incrementByTen()  // returns a value of 30
+```
