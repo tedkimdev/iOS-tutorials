@@ -34,7 +34,7 @@ Ctrl-drag form the bar button to the exit object.
 
 
 ###didSet in Swift
-After properties values are changed, you can do something what you want to do
+After the values of properties are changed, you can do something what you want to do.
 
 ```swift
 var preferences: Preferences = Preferences() {
