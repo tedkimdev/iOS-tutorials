@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD2BF28B1E349F40007A6655 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2BF28A1E349F40007A6655 /* AppDelegate.swift */; };
+		BD2BF28D1E349F40007A6655 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2BF28C1E349F40007A6655 /* ViewController.swift */; };
+		BD2BF2901E349F40007A6655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2BF28E1E349F40007A6655 /* Main.storyboard */; };
+		BD2BF2921E349F40007A6655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2BF2911E349F40007A6655 /* Assets.xcassets */; };
+		BD2BF2951E349F40007A6655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2BF2931E349F40007A6655 /* LaunchScreen.storyboard */; };
+		BD2BF29D1E34C8C9007A6655 /* PreferencesTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2BF29C1E34C8C9007A6655 /* PreferencesTableTableViewController.swift */; };
+		BD2BF2A11E34C9B8007A6655 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2BF2A01E34C9B8007A6655 /* Preferences.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD2BF2871E349F40007A6655 /* iOS10 Form Input Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS10 Form Input Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2BF28A1E349F40007A6655 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD2BF28C1E349F40007A6655 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD2BF28F1E349F40007A6655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD2BF2911E349F40007A6655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD2BF2941E349F40007A6655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD2BF2961E349F40007A6655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD2BF29C1E34C8C9007A6655 /* PreferencesTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesTableTableViewController.swift; sourceTree = "<group>"; };
+		BD2BF2A01E34C9B8007A6655 /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD2BF2841E349F40007A6655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD2BF27E1E349F3F007A6655 = {
+			isa = PBXGroup;
+			children = (
+				BD2BF2891E349F40007A6655 /* iOS10 Form Input Example */,
+				BD2BF2881E349F40007A6655 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD2BF2881E349F40007A6655 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD2BF2871E349F40007A6655 /* iOS10 Form Input Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD2BF2891E349F40007A6655 /* iOS10 Form Input Example */ = {
+			isa = PBXGroup;
+			children = (
+				BD2BF28A1E349F40007A6655 /* AppDelegate.swift */,
+				BD2BF28C1E349F40007A6655 /* ViewController.swift */,
+				BD2BF29C1E34C8C9007A6655 /* PreferencesTableTableViewController.swift */,
+				BD2BF2A01E34C9B8007A6655 /* Preferences.swift */,
+				BD2BF28E1E349F40007A6655 /* Main.storyboard */,
+				BD2BF2911E349F40007A6655 /* Assets.xcassets */,
+				BD2BF2931E349F40007A6655 /* LaunchScreen.storyboard */,
+				BD2BF2961E349F40007A6655 /* Info.plist */,
+			);
+			path = "iOS10 Form Input Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD2BF2861E349F40007A6655 /* iOS10 Form Input Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD2BF2991E349F40007A6655 /* Build configuration list for PBXNativeTarget "iOS10 Form Input Example" */;
+			buildPhases = (
+				BD2BF2831E349F40007A6655 /* Sources */,
+				BD2BF2841E349F40007A6655 /* Frameworks */,
+				BD2BF2851E349F40007A6655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS10 Form Input Example";
+			productName = "iOS10 Form Input Example";
+			productReference = BD2BF2871E349F40007A6655 /* iOS10 Form Input Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD2BF27F1E349F3F007A6655 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = aney;
+				TargetAttributes = {
+					BD2BF2861E349F40007A6655 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BD2BF2821E349F3F007A6655 /* Build configuration list for PBXProject "iOS10 Form Input Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD2BF27E1E349F3F007A6655;
+			productRefGroup = BD2BF2881E349F40007A6655 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD2BF2861E349F40007A6655 /* iOS10 Form Input Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD2BF2851E349F40007A6655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2BF2951E349F40007A6655 /* LaunchScreen.storyboard in Resources */,
+				BD2BF2921E349F40007A6655 /* Assets.xcassets in Resources */,
+				BD2BF2901E349F40007A6655 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD2BF2831E349F40007A6655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2BF28D1E349F40007A6655 /* ViewController.swift in Sources */,
+				BD2BF28B1E349F40007A6655 /* AppDelegate.swift in Sources */,
+				BD2BF2A11E34C9B8007A6655 /* Preferences.swift in Sources */,
+				BD2BF29D1E34C8C9007A6655 /* PreferencesTableTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD2BF28E1E349F40007A6655 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD2BF28F1E349F40007A6655 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD2BF2931E349F40007A6655 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD2BF2941E349F40007A6655 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD2BF2971E349F40007A6655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD2BF2981E349F40007A6655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD2BF29A1E349F40007A6655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS10 Form Input Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aney.iOS10-Form-Input-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BD2BF29B1E349F40007A6655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS10 Form Input Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aney.iOS10-Form-Input-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD2BF2821E349F3F007A6655 /* Build configuration list for PBXProject "iOS10 Form Input Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2BF2971E349F40007A6655 /* Debug */,
+				BD2BF2981E349F40007A6655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD2BF2991E349F40007A6655 /* Build configuration list for PBXNativeTarget "iOS10 Form Input Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2BF29A1E349F40007A6655 /* Debug */,
+				BD2BF29B1E349F40007A6655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD2BF27F1E349F3F007A6655 /* Project object */;
+}
