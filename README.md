@@ -7,7 +7,7 @@ iOS Swift tutorials
 - iOS10 Delegate Pattern Example
 - iOS10 Form Input Example
 - iOS10 Password Input Example
-- [iOS10 Swipes & Shakes Tutorial](https://github.com/00aney/iOS-tutorials/tree/master/iOS10%20Swipes%20-%20Shakes%20Tutorial)
+- [iOS10 Swipes & Shakes Tutorial](https://github.com/00aney/iOS-tutorials/tree/master/iOS10%20Swipes%20-%20Shakes%20Example)
 
 #### Dependency management systems for iOS
 1. [CocoaPods](https://cocoapods.org)
