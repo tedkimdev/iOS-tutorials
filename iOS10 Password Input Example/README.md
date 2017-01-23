@@ -22,3 +22,4 @@
 - modify regex
 - recommend very strong password
 - show password hint for strong password
+- study Regular Expressions
