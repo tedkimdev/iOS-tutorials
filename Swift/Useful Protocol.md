@@ -24,12 +24,14 @@ When you use ```CustomStringConvertible```, you have to implement ```var descrip
 ####usage example
  - ExpressibleByIntegerLiteral
 ```swift
-struct DollarConverter: ExpressibleByIntegerLiteral {
-  typealias IntegerLiteralType = Int
-  
+struct DollarConverter {
   let price = 1_164 //2017.01.25
   var dollars: Int
-  
+}
+
+extension DollarConverter: ExpressibleByIntegerLiteral {
+  typealias IntegerLiteralType = Int
+	
   init(integerLiteral value: IntegerLiteralType) {
     self.dollars = value * self.price
   }
@@ -44,10 +46,9 @@ dollarConverter.dollars // 1164000
 
  - ExpressibleByArrayLiteral
 ```swift
-struct OddEvenFilter: ExpressibleByArrayLiteral {
-  
-}
+
 ```
 
 ####Ref
 https://developer.apple.com/reference/swift/customstringconvertible
+https://developer.apple.com/reference/swift/expressiblebyarrayliteral
