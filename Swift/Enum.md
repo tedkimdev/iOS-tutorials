@@ -42,8 +42,7 @@ print(choco)
 ```Milk(rawValue: 4)``` is ```nil```.
 
 
-####3)
-####In Swift, raw value in Enum can be other data types
+####3) In Swift, raw value in Enum can be other data types
 ```swift
 enum State: String {
   case active = "active"
@@ -52,8 +51,7 @@ enum State: String {
 ```
 
 
-####4)
-####Associated Values
+####4) Associated Values
 ```swift
 enum NetworkError {
   case invalidParameter(String, String)
@@ -79,8 +77,7 @@ default:
 ```
 
 
-####5)
-####Optional is Enum
+####5) Optional is Enum
 ```swift
 public enum Optional<Wrapped> {
   case none
