@@ -46,9 +46,30 @@ dollarConverter.dollars // 1164000
 
  - ExpressibleByArrayLiteral
 ```swift
+struct OddEvenFilter {
+    var odds: [Int] = []
+    var evens: [Int] = []
+}
 
+extension OddEvenFilter : ExpressibleByArrayLiteral {
+    typealias Element = Int
+    init(arrayLiteral elements: Int...) {
+        for element in elements {
+            if element % 2 == 0 {
+                evens.append(element)
+            } else {
+                odds.append(element)
+            }
+        }
+    }
+}
+
+let oddEvenFilter: OddEvenFilter = [1, 3, 5, 2, 7, 4]
+oddEvenFilter.odds  // [1, 3, 5, 7]
+oddEvenFilter.evens // [2, 4]
 ```
 
 ####Ref
 https://developer.apple.com/reference/swift/customstringconvertible
 https://developer.apple.com/reference/swift/expressiblebyarrayliteral
+https://fossies.org/diffs/swift-swift/2.2.1-RELEASE_vs_3.0-RELEASE/test/Constraints/array_literal.swift-diff.html
