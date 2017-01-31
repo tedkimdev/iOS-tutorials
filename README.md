@@ -9,6 +9,8 @@ iOS Swift tutorials
 - [iOS10 Password Input Example](https://github.com/00aney/iOS-tutorials/tree/master/iOS10%20Password%20Input%20Example)
 - [iOS10 Swipes & Shakes Tutorial](https://github.com/00aney/iOS-tutorials/tree/master/iOS10%20Swipes%20-%20Shakes%20Example)
 - [iOS10 Advanced Segues](https://github.com/00aney/iOS-tutorials/tree/master/iOS10%20Advanced%20Segues)
+- [iOS10 MVVM Pattern Example](https://github.com/00aney/iOS-tutorials/tree/master/iOS10%20MVVM%20Pattern%20Example)
+- iOS10 AlamoFire Demo
 
 #### Dependency management systems for iOS
 1. [CocoaPods](https://cocoapods.org)
