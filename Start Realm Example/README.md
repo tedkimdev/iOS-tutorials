@@ -31,3 +31,12 @@ Pod install
 
 ###After Pod install
 - ```use projectName.xcworkspace``` for this project
+
+
+### Install Realm Plug-In
+- install the plugin manually by opening plugin/RealmPlugin.xcodeproj contained in the release zip and clicking build. 
+
+[release zip](https://static.realm.io/downloads/swift/realm-swift-2.4.2.zip)
+
+####Ref
+https://realm.io/docs/swift/2.3.0/#xcode-plugin
