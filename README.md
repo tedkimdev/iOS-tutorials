@@ -11,6 +11,7 @@ iOS Swift tutorials
 - [iOS10 Advanced Segues](https://github.com/00aney/iOS-tutorials/tree/master/iOS10%20Advanced%20Segues)
 - [iOS10 MVVM Pattern Example](https://github.com/00aney/iOS-tutorials/tree/master/iOS10%20MVVM%20Pattern%20Example)
 - iOS10 AlamoFire Demo
+- [iOS10 Custom Table Example](https://github.com/00aney/iOS-tutorials/tree/master/iOS10%20Custom%20Table%20Example)
 
 #### Dependency management systems for iOS
 1. [CocoaPods](https://cocoapods.org)
