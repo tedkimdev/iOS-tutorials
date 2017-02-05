@@ -38,3 +38,4 @@ Pod install
 
 ####Ref
 https://realm.io/docs/swift/2.3.0/#xcode-plugin
+https://realm.io/kr/news/realm-swift-mobile-database/
