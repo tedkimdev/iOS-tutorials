@@ -1,7 +1,7 @@
 #ViewController Transition
-## 3 Examples
+## 3 Examples about transition
 
-##1. ???
+###1. ???
 #### Task Edit View Controller
 ```swift
   @IBAction func doneButtonDidTap() {
@@ -21,7 +21,7 @@
 	}
 ```
 
-##2. Delegate
+###2. Delegate
 #### Task Edit View Controller
 ```swift
 class TaskEditViewController: UIViewController {
@@ -71,5 +71,5 @@ class TaskListViewController: UIViewController {
 }
 ```
 
-##3. Closure
+###3. Closure
 
