@@ -72,4 +72,51 @@ class TaskListViewController: UIViewController {
 ```
 
 ###3. Closure
+#### TaskEditViewController
+```swift
 
+class TaskEditViewController: UIViewController {
+	
+	@IBOutlet var titleInput: UITextField!
+	
+	var didAddTask: ((Task) -> Void)?
+	
+	override func viewDidAppear(_ animated: Bool) {
+		super.viewDidAppear(animated)
+		self.titleInput.becomeFirstResponder()
+	}
+
+	@IBAction func doneButtonDidTap() {
+		if let title = self.titleInput.text, !title.isEmpty {
+			let newTask = Task(title: title)
+			
+			self.didAddTask?(newTask)	// 3.closure
+			self.dismiss(animated: true, completion: nil)
+			
+		}
+	}
+
+	@IBAction func cancelButtonDidTap() {
+		self.dismiss(animated: true, completion: nil)
+	}
+}
+
+```
+
+#### TaskListViewController
+```swift
+class TaskListViewController: UIViewController {
+	//...	
+	@IBOutlet var tableView: UITableView!
+	
+	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+		if let navigationController = segue.destination as? UINavigationController,
+			let taskEditViewController = navigationController.viewControllers.first as? TaskEditViewController {
+			taskEditViewController.didAddTask = { [weak self] task in
+				self?.tasks.append(task)
+				self?.tableView.reloadData()
+			}
+		}
+	}
+}
+```
