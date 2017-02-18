@@ -35,6 +35,12 @@ protocol TaskEditViewControllerDelegate: class {	//: class 는 참조타입에�
 
 ```
 
+###TODO, FIXME
+```swift
+//TODO: -어쩌고 저쩌고 
+//FIXME: -어쩌고 저쩌고 
+```
+
 
 ####Ref
 http://useyourloaf.com/blog/swift-documentation-quick-guide/
