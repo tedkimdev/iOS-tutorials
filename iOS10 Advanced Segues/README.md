@@ -1,8 +1,8 @@
-##Table View
-- Viewcontroller should adopt the 
-UITableViewDataSource, UITableViewDelegate
+## Table View
 
-###Conforming to protocol ```UITableViewDataSource```
+- Viewcontroller should adopt the UITableViewDataSource, UITableViewDelegate
+
+### Conforming to protocol ```UITableViewDataSource```
 
 ```swift
 public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {        
@@ -20,7 +20,7 @@ public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPat
 ```
 
 
-###when you select table view cell, 
+### when you select table view cell, 
 ```swift
 func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
   activeRow = indexPath.row
@@ -28,7 +28,7 @@ func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 }
 ```
 
-##Segue
+## Segue
 ```swift
 override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
      
